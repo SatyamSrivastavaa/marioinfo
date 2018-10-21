@@ -10,10 +10,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: url(./images/mario1.png) center no-repeat; */
+  background: url(./images/mario1.png) no-repeat;
+  background-size: 100%;
+  background-color: #5471E9;
+  background-position: bottom;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+form{
+  padding: 1em;
+  margin-top: 1em;
+}
+
+form button, form h1{
+  margin: 1em 0;
 }
